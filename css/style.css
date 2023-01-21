@@ -1,0 +1,1008 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 500;
+  font-size: 15px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 600;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 400;
+
+  color: #8f95a5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 80px;
+
+  padding: 50px 80px;
+}
+
+.navbar__mem {
+  display: flex;
+  flex-direction: row;
+
+  gap: 50px;
+}
+
+.navbar__button {
+  border: 2px solid #8f95a5;
+  border-radius: 5px;
+
+  padding: 8px 40px;
+}
+
+.navbar__menu {
+  display: none;
+}
+
+.geq {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 50px 80px;
+}
+
+.geq__text {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 60px;
+}
+
+.qwew__text {
+  display: flex;
+  flex-direction: row;
+}
+
+.title__img {
+  display: flex;
+  align-items: center;
+}
+
+.qwew {
+  font-size: 56px;
+}
+
+.lang__text {
+  margin: 50px 0;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.lang__btn {
+  width: 350px;
+  padding: 30px;
+
+  background: #263238;
+  border-radius: 5px;
+}
+
+.btn__size {
+  font-size: 25px;
+  color: white;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+
+  padding: 50px 80px;
+}
+
+.skills__text {
+  margin: 0px auto 100px;
+
+  font-size: 25px;
+}
+
+.skills__boxs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  width: 100%;
+
+  gap: 10px;
+}
+
+.skills_box {
+  height: 100%;
+
+  background-color: #f5f5f5;
+  padding: 30px 0;
+}
+
+.skills_box:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.skills_box:nth-child(4) {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.qwerty {
+  padding: 0px 20px;
+}
+
+.qwerty1 {
+  padding: 70px 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box__title {
+  margin-bottom: 20px;
+}
+
+.box__text {
+  margin-bottom: 40px;
+}
+
+.box__btn {
+  padding: 5px 40px;
+  color: white;
+
+  border-radius: 5px;
+
+  background: #263238;
+}
+
+.color {
+  color: #fff;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 50px 80px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 50px;
+}
+
+.text__num {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text__text {
+  margin: 50px 0;
+}
+
+.title__size {
+  font-size: 55px;
+}
+
+.num__title {
+  font-size: 55px;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+
+  padding: 50px 80px;
+}
+
+.pricing__title {
+  margin: 50px auto;
+}
+
+.pricing__boxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box__box {
+  background: #eeeeee;
+  height: 30px;
+  width: 190px;
+}
+.box__price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.price {
+  color: #263238;
+  font-size: 20px;
+}
+
+.list {
+  margin: 20px 0;
+}
+.box_text {
+  margin: 0 0 20px 0;
+}
+
+.box__img {
+  height: 311px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+
+  padding: 100px 80px;
+}
+
+.contact__texts {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 50px;
+}
+
+.cont__title {
+  font-size: 40px;
+}
+.contact__text {
+  margin: 50px 0;
+}
+
+.contact__box {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  display: flex;
+
+  height: 60px;
+  width: 362px;
+  padding: 10px;
+
+  border-style: solid;
+  border-color: #8f95a5;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: #8f95a5;
+}
+
+button {
+  border: none;
+}
+
+.contact__btn {
+  background-color: #263238;
+  color: #fff;
+  padding: 23px 70px;
+  border-radius: 5px;
+  border: none;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 50px 80px 20px;
+  position: relative;
+}
+
+.intro__img {
+  position: relative;
+}
+
+.intro::before {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  width: 1200px;
+  height: 2px;
+
+  background: #c4c4c4;
+}
+
+@media (max-width: 992px) {
+  /* Navbar */
+  .navbar {
+    padding: 10px 30px;
+  }
+
+  .navbar__mem {
+    gap: 20px;
+  }
+
+  .geq {
+    padding: 10px 30px;
+  }
+
+  .light {
+    height: 70px;
+    width: 70px;
+  }
+
+  .tetel {
+    height: 540px;
+    width: 540px;
+  }
+
+  .lang__size {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .lang__btn {
+    margin-top: 20px;
+    padding: 20px 0;
+    width: 300px;
+  }
+
+  .btn__size {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .skills {
+    padding: 10px 30px;
+  }
+
+  .skills__text {
+    font-size: 20px;
+  }
+
+  .qwerty1 {
+    padding: 30px 20px;
+  }
+
+  .people {
+    width: 280px;
+    height: 260px;
+  }
+
+  .type {
+    height: 250px;
+    width: 250px;
+  }
+
+  .house {
+    height: 220px;
+    width: 290px;
+  }
+
+  .podcast {
+    height: 220px;
+    width: 280px;
+  }
+
+  .skills_box {
+    padding-top: 20px;
+  }
+
+  .about {
+    padding: 10px 30px;
+    margin-top: 100px;
+  }
+
+  .qwew {
+    font-size: 40px;
+  }
+
+  .mountain {
+    height: 400px;
+    width: 400px;
+  }
+
+  .text__size {
+    font-size: 14px;
+  }
+
+  .num__title {
+    font-size: 35px;
+  }
+
+  .pricing {
+    padding: 10px 30px;
+  }
+
+  .pricing__boxs {
+    display: flex;
+    gap: 50px;
+  }
+
+  .box__img {
+    height: 230px;
+  }
+
+  .online {
+    width: 220px;
+    height: 220px;
+  }
+  .lesson {
+    width: 290px;
+    height: 240px;
+  }
+  .web {
+    width: 240px;
+    height: 240px;
+  }
+
+  .list {
+    font-size: 20px;
+  }
+
+  .asd {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 19px;
+  }
+
+  .price__text {
+    font-size: 12px;
+  }
+
+  .contact {
+    padding: 10px 30px;
+    margin-top: 100px;
+  }
+  .play {
+    height: 350px;
+    width: 350px;
+  }
+
+  .cont__title {
+    font-size: 38px;
+  }
+
+  .sdf {
+    font-size: 14px;
+  }
+
+  input {
+    width: 350px;
+    height: 55px;
+    margin-right: 15px;
+  }
+  .contact__btn {
+    width: 150px;
+    padding: 13px 50px;
+  }
+
+  .intro {
+    padding: 10px 30px;
+    margin-top: 50px;
+  }
+
+  .intro::before {
+    width: 930px;
+    top: -10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar__mem {
+    display: none;
+  }
+
+  .navbar__button {
+    display: none;
+  }
+
+  .navbar__menu {
+    display: block;
+  }
+
+  .light {
+    height: 55px;
+    width: 55px;
+  }
+
+  .tetel {
+    height: 400px;
+    width: 400px;
+  }
+
+  .qwew {
+    font-size: 33px;
+  }
+
+  .text {
+    font-size: 12.4px;
+  }
+
+  .lang__text {
+    margin: 15px 0px;
+  }
+
+  .lang__btn {
+    width: 250px;
+    padding: 20px 0px;
+  }
+
+  .skills__text {
+    margin-bottom: 50px;
+  }
+
+  .people {
+    height: 214px;
+    width: 214px;
+  }
+
+  .type {
+    height: 200px;
+    width: 200px;
+  }
+
+  .house {
+    height: 144px;
+    width: 216px;
+  }
+
+  .podcast {
+    height: 134px;
+    width: 202px;
+  }
+
+  .opa {
+    font-size: 25px;
+  }
+
+  .aka {
+    font-size: 14px;
+  }
+
+  .box__btn {
+    width: 120px;
+    padding: 10px 0;
+  }
+
+  .title__size {
+    font-size: 30px;
+  }
+
+  .text__size {
+    font-size: 11px;
+  }
+
+  .num__title {
+    font-size: 30px;
+  }
+
+  .num__text {
+    font-size: 11px;
+  }
+
+  .mountain {
+    width: 295px;
+    height: 295px;
+  }
+
+  .title__text {
+    font-size: 25px;
+  }
+
+  .online {
+    height: 197px;
+    width: 197px;
+  }
+
+  .lesson {
+    width: 219px;
+    height: 169px;
+  }
+
+  .box__img {
+    height: 210px;
+  }
+
+  .web {
+    height: 210px;
+    width: 210px;
+  }
+
+  .list {
+    font-size: 24px;
+  }
+
+  .asd {
+    font-size: 9px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .play {
+    width: 233px;
+    height: 210px;
+  }
+
+  .cont__title {
+    font-size: 25px;
+  }
+
+  .sdf {
+    font-size: 11px;
+  }
+
+  input {
+    width: 283px;
+    height: 50px;
+
+    margin-left: 2px;
+  }
+
+  .contact__btn {
+    width: 145px;
+    height: 50px;
+  }
+
+  .intro::before {
+    content: "";
+    width: 725px;
+  }
+}
+
+@media (max-width: 575px) {
+  .geq {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .geq__text {
+    padding-top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .light {
+    display: none;
+  }
+
+  br {
+    display: none;
+  }
+
+  .tetel {
+    height: 424px;
+    width: 424px;
+  }
+
+  .qaz {
+    display: block;
+  }
+
+  .qwerty1 {
+    padding: 0px 20px;
+  }
+
+  .box__img {
+    height: 185px;
+  }
+
+  .skills__boxs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+  }
+  .skills_box {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills_box:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .skills_box:nth-child(2) {
+    grid-row-start: 0;
+    grid-row-end: 0;
+  }
+  .skills_box:nth-child(3) {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  .skills_box:nth-child(4) {
+    grid-row-start: 0;
+    grid-row-end: 0;
+  }
+
+  .people {
+    width: 185px;
+    height: 185px;
+  }
+
+  .type {
+    width: 182px;
+    height: 182px;
+  }
+
+  .house {
+    width: 198px;
+    height: 132px;
+  }
+
+  .podcast {
+    width: 206px;
+    height: 137px;
+  }
+
+  .box__btn {
+    width: 100%;
+    height: 40px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mountain {
+    height: 352px;
+    width: 352px;
+  }
+
+  .about__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text__num {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text__num {
+    width: 100%;
+  }
+
+  .num__lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .num__pupils {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .num__teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .num__title {
+    font-size: 20px;
+  }
+
+  .pricing__boxs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .online {
+    width: 300px;
+    height: 300px;
+  }
+
+  .lesson {
+    width: 314px;
+    height: 241px;
+  }
+
+  .web {
+    width: 300px;
+    height: 300px;
+  }
+
+  .boxs__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .qsc {
+    padding-top: 120px;
+  }
+
+  .qwwdvb {
+    padding-top: 100px;
+  }
+
+  .qwdv {
+    padding-top: 50px;
+  }
+
+  .list {
+    font-size: 25px;
+  }
+
+  .asd {
+    font-size: 14px;
+    display: flex;
+
+    align-items: center;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .play {
+    width: 358px;
+    height: 322px;
+  }
+
+  .contact__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    width: 350px;
+    padding: 0;
+  }
+
+  .intro__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .intro__size {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 532px) {
+  br {
+    display: none;
+  }
+
+  .tetel {
+    height: 300px;
+    width: 300px;
+  }
+
+  .lang__size {
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills__boxs {
+    display: grid;
+
+    grid-template-columns: 1fr;
+  }
+  .skills_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills_box:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .skills_box:nth-child(2) {
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .skills_box:nth-child(3) {
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+  .skills_box:nth-child(4) {
+    grid-row-start: 7;
+    grid-row-end: 9;
+
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .text__num {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .num__pupils {
+    margin-bottom: 20px;
+  }
+
+  .num__teachers {
+    margin-bottom: 20px;
+  }
+
+  .num__lang {
+    margin-bottom: 20px;
+  }
+
+  .play {
+    width: 253px;
+    height: 228px;
+  }
+
+  .contact__box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3A0px;
+  }
+
+  input {
+    width: 291px;
+    margin-bottom: 10px;
+  }
+
+  .contact__btn {
+    width: 291px;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro::before {
+    width: 290px;
+  }
+
+  .intro__size {
+    font-size: 9px;
+
+    margin-top: 10px;
+  }
+}
